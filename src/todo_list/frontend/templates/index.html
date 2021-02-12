@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+{% block content%}
+
+<div id="list-container" class="shadow-lg">
+    <div id="form-wrapper" class="row p-5">
+        <form id="form">
+            <div class="input-group">
+                <input type="text" id="title" class="form-control" placeholder="Add task...">
+                <button class="btn btn-info" type="submit" id="button-add" style="color: white;">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="list-wrapper" class="p-2">
+    </div>
+    <div class="row p-2">
+        <div class="col-8">
+            <p class="mx-3">© Created by Oren Rimer.</p>
+        </div>
+        <div class="col-4 social d-flex justify-content-end">
+            <a class="btn social-icon button" href="https://linkedin.com/in/oren-rimer">
+                <i class="fa fa-linkedin-square fa-lg"></i>
+            </a>
+            <a class="btn social-icon button" href="https://github.com/orenrimer">
+                <i class="fa fa-github-alt fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
