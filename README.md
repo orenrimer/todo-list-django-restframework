@@ -13,7 +13,7 @@ Features:
   - CSS
 
 
-# Run The Website
+# Run the app
 
 install the required packages from the requirements.txt using:
 ```python
